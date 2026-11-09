@@ -1,0 +1,14 @@
+# secrets and local state: never commit these
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# data and results
+work/
+output/
+test_run/
+test_flow_run/
+testdata/
+*.duckdb
+*.duckdb.wal
